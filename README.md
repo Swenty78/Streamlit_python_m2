@@ -131,6 +131,25 @@ Cette application affiche :
 - Créer une base de données SQLite ou PostgreSQL pour requêtes complexes
 - Rendre le scraping plus robuste avec `requests + BeautifulSoup` ou `Selenium`
 
+
+---
+## 🎯 Objectif
+
+Ce projet a pour but de fournir un **exemple complet et concret de pipeline de traitement de données** intégrant :
+
+- Le **scraping** d'informations depuis un site web,
+- Le **nettoyage et la structuration** de la donnée avec `pandas`,
+- L’**enrichissement par géocodage** des adresses via l’API `Nominatim` de `geopy`,
+- Et la création d’une **mini-application web interactive** avec `Streamlit`.
+
+Le tout est conçu pour démontrer comment transformer une **donnée brute non exploitable** en un **produit interactif visualisable** : carte interactive, statistiques dynamiques, filtres, liens Google Maps, etc.
+
+Ce projet est idéal comme **cas d’usage pédagogique ou démonstratif** pour :
+
+- L’analyse de données géographiques,
+- L’automatisation de workflows de données,
+- La création rapide de dashboard léger sans backend.
+
 ---
 
 ## 👨‍💻 Auteur
