@@ -1,0 +1,19 @@
+# Nettoyage de texte
+unicodedata2>=15.0.0     # version installable de unicodedata
+regex>=2022.10.31        # alternative avancée à re
+
+# Scraping web
+requests>=2.31.0
+pyquery>=1.4.3
+
+# Géocodage
+geopy>=2.3.0             # utilise Nominatim API
+
+# Visualisation et dashboard
+streamlit>=1.32.0
+streamlit-folium>=0.14.0
+folium>=0.15.1
+matplotlib>=3.8.0
+
+# Data manipulation
+pandas>=2.1.0
