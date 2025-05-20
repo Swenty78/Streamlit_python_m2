@@ -19,6 +19,20 @@ def load_data():
 
 data = load_data()
 
+
+# --- BARRE DE RECHERCHE ---
+st.subheader("🔎 Recherche")
+search_query = st.text_input("Rechercher par nom ou adresse :", "")
+
+# Appliquer le filtre si une recherche est faite
+if search_query:
+    search_query_lower = search_query.lower()
+    data = data[
+        data["nom"].str.lower().str.contains(search_query_lower) |
+        data["adresse"].str.lower().str.contains(search_query_lower)
+    ]
+    st.success(f"{len(data)} résultats trouvés pour : '{search_query}'")
+
 # --- FONCTIONS UTILITAIRES ---
 def extraire_arrondissement(adresse):
     match = re.search(r'75(\d{3})', adresse)
