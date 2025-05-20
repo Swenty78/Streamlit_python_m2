@@ -144,11 +144,6 @@ Ce projet a pour but de fournir un **exemple complet et concret de pipeline de t
 
 Le tout est conçu pour démontrer comment transformer une **donnée brute non exploitable** en un **produit interactif visualisable** : carte interactive, statistiques dynamiques, filtres, liens Google Maps, etc.
 
-Ce projet est idéal comme **cas d’usage pédagogique ou démonstratif** pour :
-
-- L’analyse de données géographiques,
-- L’automatisation de workflows de données,
-- La création rapide de dashboard léger sans backend.
 
 ---
 
